@@ -8,5 +8,5 @@ module.exports = {
     REMOTE_USER: 'root', //数据库所在的服务器登录用户名
     REMOTE_DB_NAME: 'my-db', //所需备份的数据库名
 
-    CRON_RULE: '0 0 0/6 * * *', //指定cron规则，按此规则进行定时备份
+    CRON_RULE: '* * */6 * * *', //指定cron规则，按此规则进行定时备份
 }
